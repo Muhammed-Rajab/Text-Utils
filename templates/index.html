@@ -24,6 +24,15 @@
                     <input type="checkbox" name="removeSpace" id="removeSpace">
                 </label>
 
+                <label for="replace_this" class="d-flex text-align-center align-items-center" style="column-gap: 1rem;">
+                    Replace
+                
+                    <input type="text" name="replace_this" id="replace_this" maxlength="1" class="form-control" style="width: 2.5rem;">
+                with
+                <input type="text" name="replace_with_this" id="replace_with_this" maxlength="1" class="form-control" style="width: 2.5rem;">
+                
+                </label>
+
                 <label for="Uppercase" class="d-flex text-align-center align-items-center" style="column-gap: 1rem;">
                     Uppercase
                     <input type="radio" name="case" id="Uppercase" value="upper">
@@ -33,7 +42,6 @@
                     Lowercase
                 <input type="radio" name="case" id="Lowercase" value="lower">
                 </label>
-
                 <button type="submit" class="btn btn-dark">Analyse</button>
             </div>
         </form>
