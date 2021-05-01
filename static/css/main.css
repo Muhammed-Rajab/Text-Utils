@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    height: 100vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+textarea {
+    height: 25vh !important;
+    resize: none;
+}

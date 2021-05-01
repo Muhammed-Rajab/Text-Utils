@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block head %} {% load static %}
+<title>Text Analyser | Corpusify</title>
+<link rel="stylesheet" href="{% static 'css/main.css' %}"> {% endblock %}
+<!--  -->
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 d-flex  flex-column align-items-center">
+            <h1 class="text-dark">Text Analyser</h1>
+            <p>Enter your text below 🙂</p>
+        </div>
+        <div class="col-md-12">
+            <textarea class="form-control" placeholder="Enter text to analyse" id="floatingTextarea2 input" style="height: 100px" required maxlength="5000"></textarea>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center pt-2 pb-2">
+            <button type="button" class="btn btn-dark">Analyse</button>
+        </div>
+        <div class="col-md-12 output-wrapper">
+
+        </div>
+    </div>
+</div>
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock %}
